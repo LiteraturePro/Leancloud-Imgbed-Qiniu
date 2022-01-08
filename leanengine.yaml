@@ -1,0 +1,8 @@
+installDevDependencies: true
+exposeEnvironmentsOnBuild: true
+install: 
+  - use: default
+  - require:
+    - ./package.json
+build:
+  - npm run build

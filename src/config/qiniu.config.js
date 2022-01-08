@@ -1,11 +1,12 @@
+
 import * as qiniu from "qiniu-js";
 let config = {
     useCdnDomain: true,
-    region: qiniu.region.z0
+    region: qiniu.region.cn-east-2
 }
-let token = 'Ut9OESzWf_Xxr6KKPRj2cG3PDOW_WPcMBC1rVaF-:n9OTCexogWXVvfzssFysiCMbcC8=:eyJzY29wZSI6Im1kc291cmNlIiwiZGVhZGxpbmUiOjE2MjUzOTEwMDd9'
-let date = 1625391007695
-let domain = 'https://img.cdn.sugarat.top'
+let token = 'AccessKey:0c-HAK0-U3Xjh8VTZpaeDnGgyFE=:eyJzY29wZSI6IkJ1Y2tldCIsImRlYWRsaW5lIjoxNjQ0MjA5MzczfQ=='
+let date = 1644209373875
+let domain = 'domain'
 export {
     config,
     token,
