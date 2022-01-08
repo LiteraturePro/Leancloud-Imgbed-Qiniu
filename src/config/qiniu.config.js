@@ -1,4 +1,3 @@
-
 import * as qiniu from "qiniu-js";
 let config = {
     useCdnDomain: true,

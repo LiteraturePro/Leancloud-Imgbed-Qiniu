@@ -1,8 +1,8 @@
 import "../css/index.less"
 import { uploadFile } from "./../utils/qiniuUtil.js";
-import { copyRes } from "./../utils/tool"
+import { copyRes } from "./../utils/tool.js"
 import { toast } from "./../components/Toast/index"
-import { date } from './../config/qiniu.config'
+import { date } from './../config/qiniu.config.js'
 
 console.log("init success")
 
