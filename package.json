@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node token.js && vite"
+        "dev": "node token.js && vite",
+        "build": "node token.js && vite build",
+        "serve": "vite preview"
     },
     "keywords": [],
     "author": "Literature",
@@ -23,7 +25,10 @@
         "ejs": "^2.6.1",
         "express": "^4.16.4",
         "leancloud-storage": "^3.11.0",
-        "leanengine": "^3.3.2"
+        "leanengine": "^3.3.2",
+        "dotenv": "^10.0.0",
+        "less": "^3.10.3",
+        "vite": "^2.3.5"
     },
      "engines": {
         "node": "12.x"

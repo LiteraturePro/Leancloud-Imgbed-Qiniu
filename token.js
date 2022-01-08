@@ -1,9 +1,9 @@
-// const { loadEnv } = require('./loadEnv')
+const { loadEnv } = require('./loadEnv')
 const qiniu = require('qiniu')
 const fs = require('fs');
 
 // 读取.env.*中的环境变量
-// loadEnv()
+loadEnv()
 
 // 七牛账号下的一对有效的Access Key和Secret Key
 // 对象存储空间名称 bucket
