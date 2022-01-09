@@ -23,9 +23,6 @@ jobs:
       - name: Build project
         run: yarn install && npm run build
 
-      - name: Cd
-        run: cd dist && ls
-        
       - name: Deploy to LeanCloud
       - uses: manyuanrong/setup-lean-cli@v1.0.0
         with:
