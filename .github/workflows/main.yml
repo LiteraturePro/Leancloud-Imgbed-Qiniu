@@ -28,6 +28,7 @@ jobs:
         with:
             version: '0.29.1'
       - run: |
+            cd dist
             lean login --region us-w1 --username ${{secrets.LEANCLOUD_USER}} --password ${{secrets.LEANCLOUD_PASS}}
             lean switch --region us-w1 --group web ${{secrets.LEANCLOUD_APP_ID}}
             lean deploy
